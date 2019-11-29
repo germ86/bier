@@ -1,0 +1,236 @@
+body {
+	background-color:#000000;
+	color:#00ff00;
+	font-family: courier, sans-serif;
+}
+
+header {
+	text-align:center;
+	border-width:1px;
+	border-style:solid;
+	border-color:#00ff00;
+	margin-top:5px;
+	margin-bottom:5px;
+	padding-top:5px;
+	padding-bottom:5px;
+	text-align:center;
+
+
+}
+nav menu{
+	border-width:1px;
+	border-style:solid;
+	border-color:#00ff00;
+	margin-top:5px;
+	margin-bottom:5px;
+	padding-top:5px;
+	padding-bottom:5px;
+	text-align:center;
+}
+nav menu li {
+	list-style-type:none;
+	display:inline;
+}
+
+nav menu li a:link {
+	text-decoration:none;
+	}
+nav menu li a:visited {
+	text-decoration:none;
+}
+
+nav menu li a:hover {
+
+}
+
+nav menu li a:active {
+
+}
+header {
+
+}
+
+h1 {
+	margin-top:20px;
+	font-family:serif;
+	text-align:center;
+}
+h2 {
+	margin-top:20px;
+	font-family:serif;
+	text-align:center; 
+}
+h3 {
+	margin-top:20px;
+	font-family:serif;
+	text-align:center;
+}
+h4 {
+	margin-top:20px;
+	font-family:serif;
+	text-align:center;
+}
+h5 {
+	margin-top:20px;
+	font-family:serif;
+	text-align:center;
+}
+h6 {
+	margin-top:20px;
+	font-family:serif;
+	text-align:center;
+}
+
+article {
+	margin-top:5px;
+	margin-bottom:5px;
+	border-width:1px;
+	border-style:solid;
+	border-color:#00ff00;
+	margin-top:5px;
+	margin-bottom:5px;
+	padding-top:5px;
+	padding-bottom:5px;
+	padding-left:5px;
+	padding-right:5px;
+}
+.text {
+	float:left;
+}
+table.tabelle {
+	margin-left:5px;
+	margin-right:5px;
+	margin-bottom:5px;
+	margin-top:5px;
+}
+
+a:link {
+	color:#99ff99;
+}
+a:visited {
+	color:#aadd99;
+}
+a:hover {
+}
+a:active {
+} 
+/*
+div#aside {
+	display:block;
+	float:left;
+	bottom:10px;
+	margin-right:5px;
+	margin-left:10px;
+	margin-top:20px;
+	margin-bottom:10px;
+}
+div#aside h1 {
+	text-align:center;
+}
+*//*
+span.text {
+	position:static;
+	margin-right:10px;
+	margin-left:10px;
+}
+span.bild_right {
+	position:relative;
+	float:right;
+	margin-right:15px;
+	argin-left:10px;
+}*/
+footer menu {
+	border-width:1px;
+	border-style:solid;
+	border-color:#00ff00;
+	margin-top:5px;
+	margin-bottom:5px;
+	padding-top:5px;
+	padding-bottom:5px;
+	text-align:center;
+	padding-right:5px;
+}
+
+footer menu li {
+}
+footer menu li a:link { 
+}
+footer menu li a:visited {
+}
+footer menu li a:hover {
+}
+footer menu li a:active {
+}
+
+
+ /* Bordered form */
+form {
+			border: 3px solid #f1f1f1;
+	   }
+
+	/* Full-width inputs */
+input[type=text], input[type=password] {
+		width: 100%;
+		padding: 12px 20px;
+		margin: 8px 0;
+		display: inline-block;
+		border: 1px solid #ccc;
+		box-sizing: border-box;
+	}
+
+	/* Set a style for all buttons */
+button {
+		background-color: #4CAF50;
+		color: white;
+		padding: 14px 20px;
+		margin: 8px 0;
+		border: none;
+		cursor: pointer;
+		width: 100%;
+	}
+
+	/* Add a hover effect for buttons */
+button:hover {
+	opacity: 0.8;
+}
+
+	/* Extra style for the cancel button (red) */
+.cancelbtn {
+	width: auto;
+	padding: 10px 18px;
+	background-color: #f44336;
+}
+	
+	/* Center the avatar image inside this container */
+.imgcontainer {
+	text-align: center;
+	margin: 24px 0 12px 0;
+}
+	
+	/* Avatar image */
+img.avatar {
+	width: 40%;
+	border-radius: 50%;
+}
+	
+	/* Add padding to containers */
+.container {
+	padding: 16px;
+}
+
+	/* The "Forgot password" text */
+span.psw {
+	float: right;
+	padding-top: 16px;
+}
+
+	/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+	span.psw {
+		display: block;
+		float: none;
+	}
+	.cancelbtn {
+	width: 100%;
+	}
+} 
