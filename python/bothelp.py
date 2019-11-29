@@ -23,14 +23,14 @@ twitter = Twython(
 
 def bothelp():
 	try:
-		search_results_bier = twitter.search(q="#BierbotHelp OR #BierforceHelp from:@sirkcaligo", result_type='recent', lang='de',count=20)
+		search_results_bier = twitter.search(q="#BierbotHelp OR #BierforceHelp from:@bierbot1", result_type='recent', lang='de',count=20)
 		for tweet in search_results_bier['statuses']:
 			uid = tweet['id']
 			username = tweet['user']['screen_name'].encode('utf-8')
 			statushead = "@"+username+" "
+			user = bierbot1
 			
-			#if(uid == '1045648008375926785'):
-			if(username == 'SirkCaligo'):
+			if(username == 'user'):
 				print username
 				print uid
 				
